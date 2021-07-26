@@ -1,5 +1,6 @@
 FROM django:python2
 
+## https://hub.docker.com/_/django
 ## docker build -t my-app .
 ## docker run -v "$PWD":/usr/src/app -w /usr/src/app -p 8000:8000 -it my-app bash
 ## python manage.py collectstatic --no-input
